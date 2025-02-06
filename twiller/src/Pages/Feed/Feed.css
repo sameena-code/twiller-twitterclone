@@ -1,0 +1,61 @@
+.feed{
+    flex: 0.4;
+    border-right: 2px solid var(--twitter-background);
+    min-width:  fit-content;
+    overflow-y: scroll;
+    /*float: left;*/
+    
+   
+    width: 40%;
+   /* padding-bottom: 0%;*/
+   
+    background-color:none;
+
+    
+    
+    border: 1px solid rgb(121, 116, 116);
+    border-top: none;
+    border-bottom: 0px solid black ;
+
+  /* margin-top: 0%;
+   margin-bottom:0%;*/
+
+}
+ .feed::-webkit-scrollbar{
+    display: none;
+    
+
+ }
+.feed__header{
+    position: sticky;
+    top:0;
+    
+    z-index: 100;
+    border: 10px solid var(--twitter-background);
+    padding: 20px 20px;
+    background-color: none;
+
+   
+  /* padding-left: 8%;
+   padding-right: 8%;
+    background-color:none;*/
+    border: 1px solid gray;
+    border-left: none;
+    border-right:none;
+    /*margin:2%;
+    margin-left: 0%;
+    margin-right: 0%;
+   border-top: none; */
+
+}
+ .feed__header>h2{
+    font-size: 25px;
+    font-weight: 800;
+    background-color:none;
+    
+   }
+ .home{
+      margin-left: 15%;  
+      
+    
+ }

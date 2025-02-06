@@ -1,0 +1,36 @@
+.right{
+    border-color: rgb(27, 26, 26);
+    background-color:rgb(0, 0, 0);
+}
+.Edit-profile-btn{
+    margin-bottom: 0%;
+
+ background-color:none;
+    justify-content: center;
+    justify-items: center;
+    /*position: left;*/
+    background-color:none;
+    border:2px solid black;
+    border-radius: 35%;
+    float:right;
+    margin-right: 8%;
+    padding: 1%;
+    margin-top: -150px;
+
+
+}
+.e-button{
+    background-color: rgb(141, 138, 145);
+}
+.right{
+    background-color: white;
+}
+.fill-content{
+    background-color: none;
+}
+.text-field{
+    background-color:none;
+}
+.birthdate-section{
+    background-color:none;
+}

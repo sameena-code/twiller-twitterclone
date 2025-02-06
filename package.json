@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react-google-button": "^0.8.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}

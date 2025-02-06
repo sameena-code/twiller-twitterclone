@@ -1,0 +1,70 @@
+.widgets{
+    
+  /*bottom: 1020px;*/  
+    /*position:relative;*/
+
+
+    /*padding-left: 15%;*/
+     /*padding: 0%;*/
+    /*padding-bottom: 0%;*/
+    
+margin-top: -980px;
+
+    margin-left: 0%;
+    /*margin-bottom: 0%;*/
+    background-color:none;
+    /*margin-right: 0%;*/
+    float:right;
+     height: 80%;
+      
+
+      align-items:top;
+     /* justify-content: top;*/
+ width: 400px;
+}
+
+
+.widgets__input{
+
+    background-color:rgb(239, 243, 245);
+    margin: 15px;
+
+    border: 2px solid rgb(179, 176, 176);
+    border-radius: 15px;
+
+
+}
+.widgets__input>input{
+    border: none;
+    margin-top: 0px;
+    background-color: var(--twitter-background);
+}
+.widgets__searchIcon{
+    color: black;
+    font-weight: 900;
+    font-size: large;
+    background-color:none;
+    margin: 2%;
+
+    text-decoration-color: rebeccapurple;
+
+
+}
+.widgets__widgetsContainer{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+
+}
+.widgets__widgetsContainer>h2  {
+    font-size: 18px;
+    font-weight: 800;
+}
+@media screen and (max-width:688px){
+.widgets{
+    display: none;
+
+}
+}
